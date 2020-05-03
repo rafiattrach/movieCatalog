@@ -15,7 +15,7 @@ import java.util.concurrent.*;
 
 public class WebServer extends Thread {
 
-	private static int port = 80;
+	private static int port = 8080;
 	private static ServerSocket ss;
 	private static MovieDatabase db;
 	private HtmlGenerator gen;
@@ -47,7 +47,7 @@ public class WebServer extends Thread {
 		WebServer server = new WebServer();
 		server.start();
 		System.out.println(newLine
-				+ "The web server should be now accessible via the browser (under loaclhost or 127.0.0.1)!" + newLine);
+				+ "The web server should be now accessible via the browser (under loaclhost or 127.0.0.1 under port 8080)!" + newLine);
 		showHowToUseAddCommand();
 		reactToUserInput();
 	}

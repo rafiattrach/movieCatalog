@@ -24,7 +24,7 @@ public final class HtmlGenerator {
 	private static final String TEMPL_DESCRIPTION = "%description";
 
 	private static final String HTML_TABLE_START = "<table border=\"1px solid black\">"
-			+ "<tr><td><b>Name</b></td><td><b>Rating</b></td><td><b>Genre</b></td></tr>";
+			+ "<tr><td><b>Name</b></td><td><b>Genre</b></td><td><b>Rating</b></td></tr>";
 	private static final String HTML_TABLE_ROW = "<tr><td><a href=\"movie/%s\">%s</a></td><td>%s</td><td>%s</td></tr>";
 	private static final String HTML_TABLE_END = "</table>";
 	private static final String HTML_TABLE_NO_RESULTS = "<p>No results found :(</p>";
